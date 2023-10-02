@@ -1,0 +1,220 @@
+@import url(../css/media/personajes.css);
+
+/*----PERSONAJES----*/
+.tarjetasP{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    
+}
+/*--ash--*/
+.ash{
+    position:relative;
+    background-color: rgba(255, 0, 0, 0.800);
+    background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border: solid red;
+    height: 350px;
+    width: 300px;
+    display: flex;
+}
+.ash img{
+    width: 100%;
+    height:95%;
+}
+.ash p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+.ash h2{    
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+   
+/*--MISTY--*/
+
+.misty{
+    position:relative;
+    background-color: rgba(255, 0, 0, 0.800);
+    background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border: solid red;
+    height: 350px;
+    width: 300px;
+    display: flex;
+}
+.misty img{
+    width: 100%;
+    height:95%;}
+.misty p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+}
+.misty h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/*--BROCK--*/
+.brock{
+    position:relative;
+    background-color: rgba(255, 0, 0, 0.800);
+    background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border: solid red;
+    height: 350px;
+    width: 300px;
+    display: flex;
+}
+.brock img{
+    width: 100%;
+    height: 95%;
+}
+.brock p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+}
+.brock h2{
+    font-size: 30px;
+    margin-bottom: 10px;}
+
+/*--GARY--*/
+.gary{
+    position:relative;
+    background-color: rgba(255, 0, 0, 0.800);
+    background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border: solid red;
+    height: 350px;
+    width: 300px;
+    display: flex;
+}
+.gary img{
+    width: 100%;
+    height: 95%;
+}
+.gary p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+}
+.gary h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/*--OAK--*/
+.oak{
+    position:relative;
+    background-color: rgba(255, 0, 0, 0.800);
+    background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border: solid red;
+    height: 350px;
+    width: 300px;
+    display: flex;
+}
+.oak img{
+    width: 100%;
+    height: 95%;
+}
+.oak p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+}
+.oak h2{
+    font-size: 30px;
+    margin-bottom: 10px;}
+
+/*--ENFERMERA--*/
+    
+.enfermeraJoy{
+    position:relative;
+    background-color: rgba(255, 0, 0, 0.800);
+    background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border: solid red;
+    height: 350px;
+    width: 300px;
+    display: flex;
+}
+.enfermeraJoy img{
+    width: 100%;
+    height: 95%;
+   
+}
+.enfermeraJoy p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+}
+.enfermeraJoy h2{
+    font-size: 30px;
+    margin-bottom: 10px;}
+    
+    
+.tarjeta-texto{
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    border-radius: 15px;
+    font-weight: bold;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 0, 0, 0.800);
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    
+    }
+    .ash:hover .tarjeta-texto{
+        opacity: 1;
+        visibility: visible;
+    }
+    .misty:hover .tarjeta-texto{
+        opacity: 1;
+        visibility: visible;
+    }
+    .brock:hover .tarjeta-texto{
+        opacity: 1;
+        visibility: visible;
+    }
+    .gary:hover .tarjeta-texto{
+        opacity: 1;
+        visibility: visible;
+    }
+    .oak:hover .tarjeta-texto{
+        opacity: 1;
+        visibility: visible;
+    }
+    .enfermeraJoy:hover .tarjeta-texto{
+        opacity: 1;
+        visibility: visible;
+    }
+   /*-----------------------------------------MEDIAS-----------------------------*/
+   
