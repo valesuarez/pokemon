@@ -24,3 +24,26 @@ iframe{
     
 
 }
+@media only screen and (max-width: 500px){
+
+    .videos{
+   
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    justify-content: center;}
+}
+iframe{
+    width: 350px;
+    height: 250px;
+}
+img{
+    width: 350px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+   
+

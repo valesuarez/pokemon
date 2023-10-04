@@ -1,12 +1,11 @@
 /*----INDEX----*/
 
 .tarjetas{
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-       
 }
-.tarjeta1{
+    
+.tarjeta{
     background-color:rgba(255, 0, 0, 0.800);
     background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
     border-radius: 50px;
@@ -15,94 +14,27 @@
     border: solid red;
     width: 350px;
 }
-.tarjeta1 img{
-    width: 300px;
-    display: block;
-  
-    border-radius: 20px;
-    
-}
-.tarjeta1 img:hover{
-    transform: scale(1.10);
-}
 
-
-.tarjeta2{
-    background-color:rgba(255, 0, 0, 0.800);
-    background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
-    border-radius: 50px;
-    margin: 2rem ;
-    padding: 1.5rem;
-    border: solid red;
-    width: 350px;
-}
-.tarjeta2 a img{
-    width: 300px ;
-    height: 300px;
-    display: block;
-    opacity: 1;
-    border-radius: 20px;
-    
-}
-.tarjeta2  img{
-    font-size:30px ;
-    width: 300px;
-    height: 80px;
-    
-}
-.tarjeta2 img:hover{
-    transform: scale(1.10);
-}
-.tarjeta3{
-    background-color:rgba(255, 0, 0, 0.800);
-    background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
-    border-radius: 50px;
-    margin: 2rem;
-    padding: 1.5rem;
-    border: solid red;
-    width: 350px;
-    
-}
-.tarjeta3 a img{
+.tarjeta-img{
     width: 300px;
     height: 300px;
     display: block;
-    opacity: 1;
     border-radius: 20px;
-   
 }
-.tarjeta3  img{
-    font-size:30px ;
-    width: 300px;
-    height: 80px;
-}
-.tarjeta3 img:hover{
-    transform: scale(1.10);
-    
-}
-/*.tarjeta1{
-    background-color:rgba(255, 0, 0, 0.800);
-    background-image: linear-gradient(to bottom,rgba(255,0,0,0.800), rgba(255, 234, 0, 0.896));
-    border-radius: 50px;
-    margin: 2rem ;
-    padding: 2rem;
-    border: solid red;
-    width: 350px;
-}
-.tarjeta1 img{
-    width: 350px;
-    display: block;
   
-    border-radius: 20px;
-    
-}*/
+.tarjeta-img:hover{
+    transform: scale(1.10);
+}
 
-@media (max-width:450px){
+.tarjeta-nombre{
+    width: 300px;
+}
+@media only screen and (max-width: 680px){
     .tarjetas{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .tarjeta1{
-        width: 300px;
-    }
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;}
+
 }
+ 
