@@ -84,26 +84,28 @@ nav{
     
 }
 
-h1{ color: red;
-    font-family: "Comic+Neue";
+h1{ color: rgb(255,204, 0);
+    font-family: "pokemonSolid" ;
+    text-shadow: 10px 10px 0px rgba(0, 99, 177, 0.8);
     font-size: 4rem;
-    text-decoration: underline;
+    text-decoration: none;
     display: grid;
     place-items: center;
     padding-top: 1rem;
+    margin-bottom: 30px;
 }
 
 footer{
     margin-top: 2rem;
     border-top: solid red;
     display: flex;
-    
+   
     background-color: rgba(255, 0, 0, 0.800);
     
 }
-footer li{
+footer ul li{
     margin-top: 10px;
-    margin-left: 10px;
+    
     list-style-type: none ;
 }
 footer ul li a{

@@ -12,6 +12,7 @@
 .tarjeta-pokemon{
     cursor: pointer;
     text-decoration: none;
+    padding-top: 20px;
 }
 .tarjeta-pokemon-img{
     display: flex;
