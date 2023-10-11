@@ -1,0 +1,150 @@
+//INDEX
+
+@media only screen and (max-width: 680px){
+    .tarjetas{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;}
+
+}
+
+//GALERIA
+
+@media (max-width:800px){
+    .container-img{
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-gap: 10px;
+        grid-template-rows: 200px;
+    }
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 1;
+
+   }
+    
+}
+@media (max-width:500px){
+    .container-img{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr) ;
+        
+    }
+    .container-img .box-img{
+       height: 200px;
+
+   }
+    
+}
+
+//CONTACTOS
+
+@media  (max-width: 850px){
+    .formulario{
+        padding: 2rem;
+        
+        form{
+            width: 400px;
+            }
+            
+    }
+    }
+    
+@media (max-width: 500px){
+
+    h1{
+        font-size: 3rem;
+    }
+    
+    .formulario{
+        padding: 2rem;
+        
+        form{
+            width: 300px;
+            }
+            
+    }
+    
+
+}
+
+//PERSONAJES
+
+@media only screen and (max-width: 680px){
+    .lista-personajes{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .tarjeta-personajes{
+            height: 300px;
+            width: 250px;
+            margin-top: 2rem;
+            }
+    }
+}
+@media only screen and (min-width: 680px) and (max-width: 850px){
+    .lista-personajes{
+        align-items: center;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-content: center;
+    }
+    
+}
+@media only screen and (max-width: 1920px) and (min-width: 850px){
+    .lista-personajes{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+//TEMPORADAS
+
+@media only screen and (max-width: 500px){
+    h1{
+        font-size: 2rem;
+    }
+
+    img{
+        width: 350px;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .videos{
+   
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        
+        iframe{
+            width: 350px;
+            height: 250px;
+        }
+    }
+}
+
+//POKEDEX
+
+@media  (max-width: 500px){
+    h1{
+        font-size: 3rem;
+      }
+    .lista-pokemon{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+         }
+}
+@media  (max-width: 850px){
+    .lista-pokemon{
+        grid-template-columns:1fr 1fr;
+    }
+}
