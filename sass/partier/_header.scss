@@ -1,5 +1,5 @@
 header{
-    background-color: rgba(255, 0, 0, 0.600);
+    background-color: rgba(255, 0, 0, 0.500);
     position: relative;
     top: 0;
     nav{
@@ -8,6 +8,10 @@ header{
         .logo{
             width: 200px;
             height: 100px;}
+        .heartbeat {
+            -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+            animation: heartbeat 1.5s ease-in-out infinite both;
+            }
 
         .menu{
             color: black;

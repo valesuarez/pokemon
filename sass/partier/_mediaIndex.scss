@@ -106,25 +106,28 @@
     h1{
         font-size: 2rem;
     }
-
-    img{
-        width: 350px;
-        margin-top: 20px;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-    }
-    .videos{
+    .container{
+        .imagen{    
+            img{
+                width: 350px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                align-content: center;
+                margin-top: 20px;
+            }
+        }
+        .videos{
    
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        justify-content: center;
+            grid-template-columns: 1fr;
+            display: grid;
+            justify-content: center;
+            align-items: center;
         
-        iframe{
-            width: 350px;
-            height: 250px;
+            iframe{
+                height: 250px;
+                width: 350px;
+            }
         }
     }
 }
@@ -133,18 +136,56 @@
 
 @media  (max-width: 500px){
     h1{
-        font-size: 3rem;
+        font-size: 2rem;
       }
-    .lista-pokemon{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+    .container{
+        .lista-pokemon{
+             display: flex;
+             flex-wrap: wrap;
+             align-items: center;
+            justify-content: center;
         
          }
+        }
 }
 @media  (max-width: 850px){
+    .container{
     .lista-pokemon{
         grid-template-columns:1fr 1fr;
+    }
+}
+}
+// REDES SOCIALES
+
+@media only screen and (max-width: 680px){
+    footer{
+        li{
+            a{
+                font-size:15px;
+            }
+        }
+        .SocRedes{
+            margin-top: 5px;
+            margin-left: 200px;
+            flex-direction: column;
+            display: flex;
+            .icono1:hover{color: #0051ff}
+            .icono2:hover{color: #16fd01}
+            .icono3:hover{color: #db0cc3}
+            .icono4:hover{color: #ff0808}
+            .icono5:hover{color: #f9f9f9}
+        
+            img{
+                width: 35px ;
+            }
+            .fa{
+                margin: 5px;
+                padding: 5px;
+                border-radius: 50%;
+                background-color: transparent;
+                box-shadow: 0 0 30px 0px;
+                transition: .5s;
+            }
+        }    
     }
 }

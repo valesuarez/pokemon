@@ -27,6 +27,10 @@
             }
         }
     }
+    .slit-in-vertical {
+        -webkit-animation: slit-in-vertical 0.45s linear both;
+                animation: slit-in-vertical 0.45s linear both;
+    }
 }
     
  
